@@ -11293,14 +11293,14 @@ Shop:AddSeperator("Support | Sever")
 
 Shop:AddButton({
     Title = "Web Site TDT",
-    Description = "Click copy link Web",
+    Description = "Click copy link Dowload Client - Script New TDT",
     Callback = function()
          setclipboard("https://webtdt.com/")
     end
 })
 Shop:AddButton({
     Title = "Shop Game",
-    Description = "Click copy link Web",
+    Description = "Click copy link Account",
     Callback = function()
          setclipboard("https://thinhrobloxviet.com/")
     end
@@ -11308,7 +11308,7 @@ Shop:AddButton({
 
 Shop:AddButton({
     Title = "Groud Zalo",
-    Description = "Click copy link Web",
+    Description = "Click copy link Zalo",
     Callback = function()
          setclipboard("https://zalo.me/g/qihvbb859")
     end
