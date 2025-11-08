@@ -2068,6 +2068,8 @@ QuestNeta = function()
     }
 end
 
+local A = TeddyGay:NewWindow()
+
 local Main = Tab1:AddSection("Farming")
 local Settings = Tab2:AddSection("Local Player")
 local Melee = Tab3:AddSection("Stack Farm")
