@@ -11291,6 +11291,18 @@ end)
 
 Shop:AddSeperator("Shop Options")
 
+local button = script.Parent -- Gắn script này vào nút bấm
+
+button.MouseButton1Click:Connect(function()
+	setclipboard("https://discord.gg/ten-server-cua-ban") -- link Discord
+	game.StarterGui:SetCore("SendNotification", {
+		Title = " Sever Discord ",
+		Text = "Link Discord đã được copy! Dán vào trình duyệt để vào nhé!",
+		Duration = 5
+	})
+end)
+
+
 Shop:AddButton({
     Title = "Buy Buso",
     Description = "",
