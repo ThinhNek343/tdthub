@@ -2069,7 +2069,6 @@ QuestNeta = function()
 end
 
 local A = TeddyGay:NewWindow()
-local Tab13 = A:T("Shop")
 local Tab2 = A:T("Local Player")
 local Tab1 = A:T("Farming")
 local Tab3 = A:T("Stack Farm")
@@ -11959,7 +11958,7 @@ Misc:AddToggle({
         spawn(function()
             while _G.RTXMode do
                 wait()
-                a.Ambient = Color3.fromRGB(33, 33, 33)
+                a.Ambient = Color3.fromRGB(0, 50, 0)
                 a.Brightness = 0.3
                 c.Brightness = 0.176
                 c.Contrast = 0.39
