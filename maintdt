@@ -11289,15 +11289,39 @@ spawn(function()
     end
 end)
 
-Shop:AddSeperator("Shop Options")
+Shop:AddSeperator("Support | Sever")
+
+Shop:AddButton({
+    Title = "Web Site TDT",
+    Description = "Click copy link Web",
+    Callback = function()
+         setclipboard("https://webtdt.com/")
+    end
+})
+Shop:AddButton({
+    Title = "Shop Game",
+    Description = "Click copy link Web",
+    Callback = function()
+         setclipboard("https://thinhrobloxviet.com/")
+    end
+})
+
+Shop:AddButton({
+    Title = "Groud Zalo",
+    Description = "Click copy link Web",
+    Callback = function()
+         setclipboard("https://zalo.me/g/qihvbb859")
+    end
+})
 
 Shop:AddButton({
     Title = "Join Discord",
-    Description = "Nhấn để copy link Discord",
+    Description = "Click copy link Discord",
     Callback = function()
-         setclipboard("https://discord.gg/yourserver")
+         setclipboard("https://discord.gg/tdtfreenokey")
     end
 })
+Shop:AddSeperator("Shop Options")
 
 
 Shop:AddButton({
