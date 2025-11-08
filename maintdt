@@ -45,7 +45,7 @@ Pirates = function()
     replicated.Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
 end
 
-local TeddyGay = loadstring(game:HttpGet("https://pastefy.app/oRwYCYhi/raw"))()
+local TDTGay = loadstring(game:HttpGet("https://pastefy.app/oRwYCYhi/raw"))()
 
 local DoorBySea = {
 
@@ -2068,7 +2068,6 @@ QuestNeta = function()
     }
 end
 
-local A = TeddyGay:NewWindow()
 local Tab13 = A:T("Shop")
 local Tab2 = A:T("Local Player")
 local Tab1 = A:T("Farming")
@@ -12330,4 +12329,3 @@ task.spawn(function()
         end)
     end)
 end)
-
